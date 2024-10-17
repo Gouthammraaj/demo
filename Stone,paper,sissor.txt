@@ -2,6 +2,7 @@ arr[0]="stone"
 arr[1]="paper"
 arr[2]="sissor"
 
+
 echo "Welcome to stone, paper, sissor!"
 echo
 
@@ -34,6 +35,7 @@ do
         echo "you win!, it choose $bot_option"
     else
         echo "its a draw!, it choose $bot_option and you choose $user_option"
+    
     fi
 
     read -p "Do you want to the game again [yes/no]: " option
